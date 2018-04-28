@@ -2,22 +2,25 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href=".resources/css/style.css">
+    <link rel="stylesheet" href="./resources/css/style.css">
     <title>Broadway Design</title>
   </head>
   <body>
     <!..Header section below..>
+    <div class="header">
+      <a name="home">
+      <h1>Broadway Design</h1>
+      <p><a href="#home">Home</a></p>
+      <p><a href="#about">About</a></p>
+      <p><a href="#work">Work</a></p>
+      <p><a href="#team">Team</a></p>
+      <p><a href="#contact">Contact</a></p>
+    </div>
 
-    <h1>Broadway Design</h1>
-    <p>Home</p>
-    <p>About</p>
-    <p>Work</p>
-    <p>Team</p>
-    <p>Contact</p>
 
     <!..Process section below..>
 
-    <h2>Our Process</h2>
+    <h2 id="about">Our Process</h2>
     <p>Insert image</p>
     <h3>Identify</h3>
     <p>We focus on the most important details.</p>
@@ -30,28 +33,30 @@
 
     <!..Skinny background image - lower divider..>
 
-    <h3>Designed In New York</h3>
-    <p>Insert background image - use CSS?</p>
+    <div class="skinny-background">
+      <h3>Designed In New York</h3>
+    </div>
 
     <!..About us section below..>
 
-    <h3>Portfolio</h3>
+    <h3 id="work">Portfolio</h3>
     <p>Coming Soon</p>
-    <h3>Team</h3>
+    <h3 id="team">Team</h3>
     <p>We're Hiring!</p>
-    <h3>Contact</h3>
+    <h3 id="contact">Contact</h3>
     <p>Phone: (555) 555-5555</p>
     <p>Email: test@example.com</p>
     <p>Twitter: @test</p>
 
     <!..Footer section below..>
-    <footer>
-    <p>Copyright Broadway 2016
-    Home
-  About
-Work
-Team
-Contact</p>
-  </footer>
+    <div class="footer" text-align="left">
+      <p>©Broadway 2016
+      <a href="#home">Home</a>
+    <a href="#about">About</a>
+  <a href="#work">Work</a>
+  <a href="#team">Team</a>
+  <a href="#contact">Contact</a></p>
+    </div>
+
   </body>
 </html>
